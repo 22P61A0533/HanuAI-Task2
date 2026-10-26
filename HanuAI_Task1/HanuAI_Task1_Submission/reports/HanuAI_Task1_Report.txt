@@ -1,0 +1,82 @@
+
+HANUAI – ML ASSESSMENT
+Task 1: Customer Review Analysis
+
+1. Objective
+The objective is to collect and structure product reviews, analyze sentiment,
+identify recurring themes, document collection challenges, and provide
+business recommendations.
+
+2. Product
+JLab JBuds Lux Over-Ear Noise Cancelling True Wireless Headphones – Mauve
+
+Product page:
+https://www.bestbuy.ca/en-ca/product/jlab-jbuds-lux-over-ear-noise-cancelling-true-wireless-headphones-mauve-only-at-best-buy/18145791
+
+3. Dataset and Provenance
+The existing analysis dataset contains 50 review records and the
+required fields: ID, Review title, Reviewer, Date, Rating, Review Text, and Source.
+
+Source counts:
+Source
+jlabaudio.com    49
+bestbuy.com       1
+
+The page's embedded state provided 10 records during the live-page inspection.
+The 50-row analysis dataset was available as a separate Excel file. Its
+collection history has not been independently verified, so the 50 records
+must not be represented as 50 newly scraped Best Buy Canada reviews.
+
+4. Data Quality
+The 50-row dataset has no missing values, duplicate IDs, duplicate review
+texts, invalid ratings, or unparseable dates according to the validation
+checks performed.
+
+5. Sentiment Analysis
+VADER was used as a rule-based sentiment analyzer. Compound scores >= 0.05
+were labelled Positive, scores <= -0.05 Negative, and other scores Neutral.
+
+Results:
+- Reviews analyzed: 50
+- Positive: 36
+- Negative: 10
+- Neutral: 4
+- Average star rating: 3.54 out of 5
+
+VADER estimates sentiment from text and may disagree with numerical star ratings.
+Manual review is recommended to evaluate classification quality.
+
+6. Review Collection Challenges
+- A direct HTTP request to the product page returned HTTP 403.
+- The browser loaded the product page, but the inspected page state contained
+  only 10 review records.
+- The page reported additional reviews and pagination, but further records
+  were not retrieved during this run.
+- Review sorting and pagination controls were not clearly exposed in the
+  inspected DOM.
+- The required minimum of 50 reviews was analyzed using the separate existing
+  dataset; this does not establish that 50 records were scraped from Best Buy.
+
+No access controls were bypassed. Additional records should be obtained
+through a permitted interface or an authorized data source.
+
+7. Preliminary Business Insights
+- 36 of 50 reviews were classified as positive.
+- 10 reviews were classified as negative.
+- The average star rating was 3.54 out of 5.
+- Negative comments should be reviewed to identify recurring customer concerns.
+- Source attribution should be preserved when analyzing syndicated reviews.
+
+8. Recommendations
+- Manually inspect negative reviews and group them by recurring product issue.
+- Track ratings and sentiment over time.
+- Validate a sample of VADER predictions manually.
+- Use an authorized and reproducible review collection method.
+- Verify dataset provenance before making Best Buy-specific conclusions.
+
+9. Deliverables
+The working folder contains extracted review records, sentiment results,
+preliminary theme analysis, business insights, and this report.
+
+Outstanding limitation: the provenance of the 50-row analysis dataset has not
+been independently verified as a 50-review extraction from Best Buy Canada.

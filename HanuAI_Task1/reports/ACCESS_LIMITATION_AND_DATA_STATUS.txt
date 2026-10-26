@@ -1,0 +1,32 @@
+HANUAI TASK 1 — DATA ACCESS STATUS
+
+Status: Incomplete — source access blocked.
+
+Product:
+JLab JBuds LUX Over-Ear Noise Cancelling True Wireless Headphones
+Best Buy Canada product page:
+https://www.bestbuy.ca/en-ca/product/jlab-jbuds-lux-over-ear-noise-cancelling-true-wireless-headphones-mauve-only-at-best-buy/18145791
+
+Issue:
+The product page returned Access Denied in both Selenium and normal Chrome.
+The blocked page did not provide review data.
+
+Actions taken:
+- Attempted to access the product page using Selenium.
+- Checked the page title and source.
+- Confirmed that the blocked page did not contain the expected customerReviews data.
+- Stopped automated collection rather than attempting to bypass access controls.
+
+Important data-integrity note:
+Previously created CSV/XLSX files must not be described as verified Best Buy reviews
+unless their individual records and sources have been independently verified.
+Any sample or alternative-source data must be clearly labelled.
+
+Remaining work:
+- Obtain permitted access to at least 50 genuine review records.
+- Verify review IDs, dates, ratings, text, and source attribution.
+- Validate sorting and pagination if access becomes available.
+- Rerun sentiment analysis and business insights on verified data.
+- Update the report and submission ZIP only after validation.
+
+This note documents the access limitation; it does not indicate that Task 1 is complete.

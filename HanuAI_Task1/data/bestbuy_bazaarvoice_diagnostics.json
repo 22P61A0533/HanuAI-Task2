@@ -1,0 +1,115 @@
+{
+  "review_requests": [
+    {
+      "method": "GET",
+      "url": "https://apps.bazaarvoice.com/deployments/bestbuy-ca/main_site/production/en_CA/bv.js"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.bestbuy.ca/api/v1/catalog/query?ids=14497624%2C13832008%2C13832009%2C14059142%2C19451577&lang=en-CA&include=reviews"
+    },
+    {
+      "method": "GET",
+      "url": "https://apps.bazaarvoice.com/apps/api/api-0.8.2.js"
+    },
+    {
+      "method": "GET",
+      "url": "https://apps.bazaarvoice.com/deployments/bestbuy-ca/main_site/production/en_CA/api-config.js"
+    },
+    {
+      "method": "GET",
+      "url": "https://apps.bazaarvoice.com/analytics/bv-analytics.js"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.bestbuy.ca/api/v1/catalog/query?ids=13488459%2C16625588%2C17539748%2C17539748%2C16625588%2C17933868%2C17933868&lang=en-CA&include=reviews"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.bestbuy.ca/api/v1/catalog/query?ids=19832757&lang=en-CA&include=reviews"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.bestbuy.ca/api/v1/catalog/query?ids=17902839%2C19832757%2C19188723%2C19320383%2C19832759%2C17857926%2C19831869%2C17857921%2C19831868%2C19832755%2C16703135%2C18481239%2C19832758%2C19188721%2C17902841&lang=en-CA&include=reviews"
+    },
+    {
+      "method": "GET",
+      "url": "https://network-a.bazaarvoice.com/a.gif?loadId=abe27af8d220215723&BVBRANDID=7be4030b-e85e-49b7-84b4-f8f1fb5f3744&BVBRANDSID=f931f6f9-e28d-4a99-9745-e95a4a793679&tz=-330&sourceVersion=3.19.0&magpieJsVersion=3.19.0&source=bv-loader&environment=prod&client=bestbuy-ca&dc=18193&host=www.bestbuy.ca&r_batch=!((bvProduct:bv-loader,bvProductVersion:%2713.33.9%27,cl:Diagnostic,deploymentZone:main_site,elapsedMs:%275.7000%27,endTime:%2712064.6000%27,locale:en_CA,name:timeToRunScout,startTime:%2712058.9000%27,type:Performance))&_=7akc7i"
+    },
+    {
+      "method": "GET",
+      "url": "https://network-a.bazaarvoice.com/a.gif?cl=PageView&loadId=abe27af8d220215723&type=Product&BVBRANDID=7be4030b-e85e-49b7-84b4-f8f1fb5f3744&BVBRANDSID=f931f6f9-e28d-4a99-9745-e95a4a793679&tz=-330&sourceVersion=3.19.0&magpieJsVersion=3.19.0&source=bv-loader&environment=prod&client=bestbuy-ca&dc=18193&host=www.bestbuy.ca&bvProduct=RatingsAndReviews&locale=en_CA&deploymentZone=main_site&productId=18145791&brand=JLAB&categoryId=22457273&numReviews=4015&avgRating=4.63&href=https://www.bestbuy.ca/en-ca/product/jlab-jbuds-lux-over-ear-noise-cancelling-true-wireless-headphones-mauve-only-at-best-buy/18145791&canurl=https://www.bestbuy.ca/en-ca/product/jlab-jbuds-lux-over-ear-noise-cancelling-true-wireless-headphones-mauve-only-at-best-buy/18145791&res=1536x864&lang=en-us&charset=UTF-8&geo=1&cookies=1&r_t=(con:177,dns:28,load:-1792941541975,req:2339,res:114,tot:-1792941537529)&_=az0gd8&ref="
+    },
+    {
+      "method": "GET",
+      "url": "https://network-a.bazaarvoice.com/a.gif?loadId=abe27af8d220215723&BVBRANDID=7be4030b-e85e-49b7-84b4-f8f1fb5f3744&BVBRANDSID=f931f6f9-e28d-4a99-9745-e95a4a793679&tz=-330&sourceVersion=3.19.0&magpieJsVersion=3.19.0&source=bv-loader&environment=prod&client=bestbuy-ca&dc=18193&host=www.bestbuy.ca&r_batch=!((brand:JLAB,bvProduct:RatingsAndReviews,categoryId:%2722457273%27,cl:Impression,contentId:%271159371677%27,contentType:review,deploymentZone:main_site,locale:en_CA,productId:%2718145791%27))&_=5ftefk"
+    },
+    {
+      "method": "GET",
+      "url": "https://network-a.bazaarvoice.com/a.gif?loadId=abe27af8d220215723&BVBRANDID=7be4030b-e85e-49b7-84b4-f8f1fb5f3744&BVBRANDSID=f931f6f9-e28d-4a99-9745-e95a4a793679&tz=-330&sourceVersion=3.19.0&magpieJsVersion=3.19.0&source=bv-loader&environment=prod&client=bestbuy-ca&dc=18193&host=www.bestbuy.ca&r_batch=!((brand:JLAB,bvProduct:RatingsAndReviews,categoryId:%2722457273%27,cl:Impression,contentId:%271159550039%27,contentType:review,deploymentZone:main_site,locale:en_CA,productId:%2718145791%27),(brand:JLAB,bvProduct:RatingsAndReviews,categoryId:%2722457273%27,cl:Impression,contentId:%271163555106%27,contentType:review,deploymentZone:main_site,locale:en_CA,productId:%2718145791%27))&_=h8sh5b"
+    }
+  ],
+  "review_controls": [
+    {
+      "disabled": false,
+      "label": null,
+      "tag": "BUTTON",
+      "text": "(4015 Reviews)",
+      "title": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "label": null,
+      "tag": "BUTTON",
+      "text": "Customer Reviews",
+      "title": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "label": null,
+      "tag": "BUTTON",
+      "text": "Reviews",
+      "title": null,
+      "value": ""
+    }
+  ],
+  "bazaarvoice_config_clues": [
+    "bazaarvoice.com/deployments/bestbuy-ca/main_site/production/en_CA/bv.js\" async=\"true\" data-rh=\"true\"></script><script type=\"application/ld+json\" id=\"product-json-ld\" data-rh=\"true\">{\"@context\":\"http://schema.org",
+    "bazaarVoiceJS\":{\"isloadedProductReviewsJS\":true},\"bbProtectionMembershipDialog\":{\"isOpen\":false},\"bbp\":{\"18145791\":{\"benefitsMessage\":{\"body\":\"\",\"warrantyType\":\"PRP\"}}},\"brand\":{\"loading\":false},\"cart\":{\"apiStat",
+    "bazaarvoice\":{\"product\":{\"dccBvLoader\":{\"src\":\"https://apps.bazaarvoice.com/deployments/bestbuy-ca/main_site/production/-locale-/bv.js\",\"async\":true}},\"seller\":{\"ratingsAndReviews\":{\"src\":\"https://apps.bazaarvoi",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/16c72825-0925-593f-9d8b-3e9b958fc148\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/ce1d62f7-ce6c-524d-acf6-cb390a39cb5",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/132b6e68-cd13-5207-958b-bbf120bfd071\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/13f8e066-cd73-5cfd-a426-eb136f3bbc0",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/d8f7350f-7c81-5a3d-875f-c43ca3ad207e\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/6afd6cd0-ca55-5093-9b7d-435b43dd0f3",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/38154891-a563-5d86-b4ab-32875fade615\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/920c18be-b1df-5b9a-8c7f-97457909883",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/d0f8de2f-256f-5f37-8aae-faeb0dca1d55\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/0e14750b-d2b2-5b61-9920-c97fea8f749",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/1a0980e2-512a-50bd-87d7-3edd5f602e8d\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/96014819-f730-53db-927e-792a2c04291",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"Lux ANC Review - Great Color and Comfortable\",\"totalNegativeFeedbackCount\":0,\"totalPo",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/a18901de-567a-5985-a1a0-7fda4f462865\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/11c66e3e-8be2-59e2-8dd5-1159e9069db",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/93ab344a-81b8-5e50-8235-e204b61d49fd\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/09806d68-6032-547c-b7e6-4eaad546850",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/8e88c486-ff86-5c0e-9bde-2974519c970f\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/e0a83529-fff3-571c-ac5d-94d95cf4412",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/ed76ac61-c9ee-5e24-b37f-5f94303609cf\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/4c5639ea-7e71-5f90-bc8e-9883c0bf73c",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"THE MVP HEADPHONE!\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCount\":0},{\"",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/0d785d55-17bd-5c0b-a1a0-5a63fde14fb8\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/ee304389-d4da-5383-abf8-56cc3f3fa48",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/7962f810-9c6d-5126-9e83-853c494c3d5f\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/d419eb4f-e5be-53b3-99ca-c7ed191677a",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/0be751ad-aee1-5dfc-87bb-74a2440a28a9\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/d70253cd-968a-500d-9370-d7a0137f5f8",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"Great headphones on a budget\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCo",
+    "bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/fe67b4d9-68e4-5540-b63a-f2cabec98e25\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/a67ba515-f849-5fba-910f-10efc0617a92\"},{\"id\":\"2040508",
+    "bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/11b2fb61-0b9a-5a19-acf3-27b2e7e098ed\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/9e982d89-274b-544d-86e5-f19718907118\"}],\"rating\":5,\"r",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/2c286cfa-6f28-441a-8f6b-aac3d192f342\",\"name\":\"bestbuy.com\"},\"title\":\"Perfect for Workouts\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCount\":0},{\"",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/167efaa8-18e3-5723-86f4-f0109eca6377\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/912cc758-bacb-5005-b2e1-4bc1d522162",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/0690a43b-4586-54f3-b45e-d07e98724f8c\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/701a2ccd-1806-574a-a32e-b015f97ba5b",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"I like them a lot.\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCount\":0},{\"",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"Great Headphones, Great sound.\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedback",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"I loved it so far but recently encountered an issue.\",\"totalNegativeFeedbackCount\":0,",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"Great Sound!\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCount\":0},{\"commen",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/875466cb-0130-57fd-a7ce-c8b4b0d3a2d8\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/5048e260-31b6-5ee6-b510-81be6579cdb",
+    "bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/c423de3f-033f-5e20-aa90-f713a39d17bb\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86amxhYmF1ZGlvLWNvbnY/1e74214d-70b9-539b-bc6f-277bb10bd8c",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/c1a2c459-3893-4e71-b0fc-f2a4b8c4324f\",\"name\":\"jlabaudio.com\"},\"title\":\"Read\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedbackCount\":0},{\"comment\":\"[Thi",
+    "bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/a008bbd3-d02f-524c-887f-36992cb99807\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/816c2149-37b9-5d75-b204-125aff656aa0\"},{\"id\":\"1784663",
+    "bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/9721cf9b-6612-5537-9c18-704abd7d6a5d\",\"thumbnailUrl\":\"https://photos-us.bazaarvoice.com/photo/2/cGhvdG86YmVzdGJ1eQ/77bbf927-51f0-5d41-9c65-0585a597a81d\"}],\"rating\":5,\"r",
+    "bazaarvoice.com/photo/2/cGhvdG86YXR0cmlidXRpb25sb2dvMg/2c286cfa-6f28-441a-8f6b-aac3d192f342\",\"name\":\"bestbuy.com\"},\"title\":\"JBud Lux ANC Wireless Headphones\",\"totalNegativeFeedbackCount\":0,\"totalPositiveFeedback"
+  ],
+  "page_title": "JLab JBuds LUX Over-Ear Noise Cancelling True Wireless Headphones - Mauve - Only at Best Buy | Best Buy Canada"
+}
